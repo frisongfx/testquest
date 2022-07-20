@@ -5,7 +5,7 @@ class TestQuest():
     def __init__(self):
         self.total_quests = 10
         self.total_alternatives = 5
-        self.prova1_path = './gabs2/gab.png'
+        self.prova1_path = './gabs2/p1.png'
         self.gabarito = np.array(cv2.imread('./gabs2/gab.png', cv2.IMREAD_COLOR))
         self.prova1 = np.array(cv2.imread(self.prova1_path, cv2.IMREAD_COLOR))
 

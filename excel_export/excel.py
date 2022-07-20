@@ -1,9 +1,9 @@
 import pandas as pd
 
 def export_results(prova, qtdQuest):
-    arquivo_geral = pd.read_excel(r'C:\Users\ct67ca\Desktop\testquest\excel_export\Banco_Geral.xlsx')
-    arquivo_lista = pd.read_excel(r'C:\Users\ct67ca\Desktop\testquest\excel_export\Banco_Lista.xlsx')
-    arquivo_por_quest = pd.read_excel(r'C:\Users\ct67ca\Desktop\testquest\excel_export\Banco_TF.xlsx')
+    arquivo_geral = pd.read_excel(r'C:\Users\CUV2CA\Desktop\testquest\excel_export\Banco_Geral.xlsx')
+    arquivo_lista = pd.read_excel(r'C:\Users\CUV2CA\Desktop\testquest\excel_export\Banco_Lista.xlsx')
+    arquivo_por_quest = pd.read_excel(r'C:\Users\CUV2CA\Desktop\testquest\excel_export\Banco_TF.xlsx')
 
     i = 0
     for id in arquivo_lista['ID']:
@@ -23,11 +23,11 @@ def export_results(prova, qtdQuest):
                 arquivo_geral.loc[n, 'DATA'] = data
                 n = n + 1
 
-    arquivo_geral.to_excel('C:\\Users\\ct67ca\\Desktop\\testquest\\excel_export\\Banco_Geral.xlsx', index=False)
-    arquivo_por_quest.to_excel('C:\\Users\\ct67ca\\Desktop\\testquest\\excel_export\\Banco_TF.xlsx', index=False)
+    arquivo_geral.to_excel('C:\\Users\\CUV2CA\\Desktop\\testquest\\excel_export\\Banco_Geral.xlsx', index=False)
+    arquivo_por_quest.to_excel('C:\\Users\\CUV2CA\\Desktop\\testquest\\excel_export\\Banco_TF.xlsx', index=False)
 
-    arquivo_geral = pd.read_excel(r'C:\Users\ct67ca\Desktop\testquest\excel_export\Banco_Geral.xlsx')
-    arquivo_por_quest = pd.read_excel(r'C:\Users\ct67ca\Desktop\testquest\excel_export\Banco_TF.xlsx')
+    arquivo_geral = pd.read_excel(r'C:\Users\CUV2CA\Desktop\testquest\excel_export\Banco_Geral.xlsx')
+    arquivo_por_quest = pd.read_excel(r'C:\Users\CUV2CA\Desktop\testquest\excel_export\Banco_TF.xlsx')
 
     valor = prova[0]
     linha = 0
@@ -55,5 +55,5 @@ def export_results(prova, qtdQuest):
         else:
             linha = linha + 1
 
-    arquivo_geral.to_excel('C:\\Users\\ct67ca\\Desktop\\testquest\\excel_export\\Banco_Geral.xlsx', index=False)
-    arquivo_por_quest.to_excel('C:\\Users\\ct67ca\\Desktop\\testquest\\excel_export\\Banco_TF.xlsx', index=False)
+    arquivo_geral.to_excel('C:\\Users\\CUV2CA\\Desktop\\testquest\\excel_export\\Banco_Geral.xlsx', index=False)
+    arquivo_por_quest.to_excel('C:\\Users\\CUV2CA\\Desktop\\testquest\\excel_export\\Banco_TF.xlsx', index=False)
