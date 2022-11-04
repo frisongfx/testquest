@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>551</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>551</width>
+    <height>475</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>551</width>
+    <height>475</height>
+   </size>
+  </property>
+  <property name="sizeIncrement">
+   <size>
+    <width>551</width>
+    <height>475</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame_corrigirprova">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>551</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_barrabosch">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>551</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Bosch-Supergraphic.svg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_logobosch">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>171</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Bosch_symbol_logo_black_red.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_escritacorrecao">
+     <property name="geometry">
+      <rect>
+       <x>63</x>
+       <y>70</y>
+       <width>101</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Corrigir Provas</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_corrigirprova_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>551</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_logotestquest">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>26</y>
+       <width>321</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>logo.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox_Corrigirprova">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>126</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+       <pointsize>8</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 5px;</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Selecionar Processo Seletivo</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Smart Automation</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Mecatronica</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Administração</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Manufatura Digital</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_CaminhoGabarito">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>193</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 5px;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_caminhoGabarito">
+     <property name="geometry">
+      <rect>
+       <x>212</x>
+       <y>176</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Caminho Gabarito:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_caminhoPastasProvas">
+     <property name="geometry">
+      <rect>
+       <x>195</x>
+       <y>231</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Caminho Pastas Provas:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_CaminhoPastas_Provas">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>249</y>
+       <width>181</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid black;
+border-radius: 5px;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="botaoGerarCorrigirprovas">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>293</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Bosch Sans</family>
+       <pointsize>9</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(165, 165, 165);
+color: rgb(255, 255, 255);
+border: 1px solid Grey;
+border-radius: 3px;</string>
+     </property>
+     <property name="text">
+      <string>Gerar</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>367</y>
+       <width>551</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>Bosch-Supergraphic.svg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

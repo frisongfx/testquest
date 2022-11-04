@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>Bosch-Supergraphic.svg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>logo.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>Bosch_symbol_logo_black_red.png</file>
+  </qresource>
+</RCC>
